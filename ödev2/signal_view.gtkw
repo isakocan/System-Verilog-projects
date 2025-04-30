@@ -1,0 +1,72 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Wed Apr 30 10:46:47 2025
+[*]
+[dumpfile] "C:\Users\PC\Desktop\Kitaplar\bilgisayar organizasyonu\ödev2\wave_q1.vcd"
+[dumpfile_mtime] "Wed Apr 30 07:53:38 2025"
+[dumpfile_size] 13945
+[savefile] "C:\Users\PC\Desktop\Kitaplar\bilgisayar organizasyonu\ödev2\signal_view.gtkw"
+[timestart] 155830
+[size] 852 784
+[pos] 669 -27
+*-13.550291 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_riscv_processor.
+[treeopen] tb_riscv_processor.dut.
+[sst_width] 236
+[signals_width] 206
+[sst_expanded] 1
+[sst_vpaned_height] 218
+@420
+tb_riscv_processor.dut.clk
+@22
+[color] 5
+tb_riscv_processor.dut.PC_current[31:0]
+[color] 7
+tb_riscv_processor.dut.Instruction[31:0]
+tb_riscv_processor.dut.PC_next[31:0]
+@28
+[color] 3
+tb_riscv_processor.dut.PCSrc
+[color] 2
+tb_riscv_processor.dut.RegWrite
+[color] 3
+tb_riscv_processor.dut.ALUSrc
+[color] 2
+tb_riscv_processor.dut.MemWrite
+[color] 3
+tb_riscv_processor.dut.ResultSrc[1:0]
+[color] 3
+tb_riscv_processor.dut.Branch
+[color] 3
+tb_riscv_processor.dut.Jump
+[color] 3
+tb_riscv_processor.dut.ALUControl[2:0]
+[color] 3
+tb_riscv_processor.dut.ImmSrc[1:0]
+@22
+[color] 6
+tb_riscv_processor.dut.ImmExtended[31:0]
+tb_riscv_processor.dut.Reg_ReadData1[31:0]
+tb_riscv_processor.dut.Reg_ReadData2[31:0]
+[color] 5
+tb_riscv_processor.dut.ALU_InputA[31:0]
+[color] 5
+tb_riscv_processor.dut.ALU_InputB[31:0]
+[color] 5
+tb_riscv_processor.dut.ALU_Result[31:0]
+@28
+tb_riscv_processor.dut.ALU_Zero
+@22
+[color] 7
+tb_riscv_processor.dut.Mem_ReadData[31:0]
+tb_riscv_processor.dut.Mem_ReadData_out[31:0]
+tb_riscv_processor.dut.Result_WriteData[31:0]
+@24
+tb_riscv_processor.dut.rs1_addr[4:0]
+tb_riscv_processor.dut.rs2_addr[4:0]
+tb_riscv_processor.dut.rd_addr[4:0]
+@420
+[color] 7
+tb_riscv_processor.dut.data_mem.Address[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
