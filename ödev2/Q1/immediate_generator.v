@@ -1,4 +1,3 @@
-// immediate_generator.v
 module immediate_generator (
     input  logic [31:0] Instruction,
     input  logic [1:0]  ImmSrc,

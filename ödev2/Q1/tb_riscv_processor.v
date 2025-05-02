@@ -46,7 +46,7 @@ module tb_riscv_processor;
         instr_mem[17] = 32'h00200793; // addi x15, x0, 2
         instr_mem[18] = 32'hFFF78793; // LOOP_START: addi x15, x15, -1
         instr_mem[19] = 32'h00078463; // beq  x15, x0, +8 (LOOP_END @ 0x54)
-        instr_mem[20] = 32'hFF9FF0EF; // jal  x0, -8    (LOOP_START @ 0x48)
+        instr_mem[20] = 32'hFF9FF0EF; // jal  x1, -8    (LOOP_START @ 0x48)
                                       // (LOOP_END)
 
         $dumpfile("wave_q1.vcd"); 
