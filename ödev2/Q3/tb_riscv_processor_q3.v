@@ -28,11 +28,11 @@ module tb_riscv_processor_q3;
 
     initial begin
         instr_mem[0] = 32'hABCDE2B7; // lui x5, 0xABCDE (x5 = ABCDE000)
-        instr_mem[1] = 32'h00001337; // lui x6, 0x1 (x6 = 00001000)
-        instr_mem[2] = 32'hFFFFF3B7; // lui x7, 0xFFFFF (x7 = FFFFF000)
+        instr_mem[1] = 32'hBE51C337; // lui x6, 0xBE51C (x6 = BE51C7000)
+        instr_mem[2] = 32'h190323B7; // lui x7, 0x19032 (x7 = 19032000)
         instr_mem[3] = 32'h12328293; // addi x5, x5, 0x123 (x5 = ABCDE123)
-        instr_mem[4] = 32'h00130313; // addi x6, x6, 1 (x6 = 00001001)
-        instr_mem[5] = 32'hFFF38393; // addi x7, x7, 0xFFF (x7 = FFFFFFFF)
+        instr_mem[4] = 32'h7A530313; // addi x6, x6, 0x7A5 (x6 = BE51C7A5)
+        instr_mem[5] = 32'h90338393; // addi x7, x7, 0x903 (x7 = 19031903)
 
         $dumpfile("wave_q3.vcd");
         $dumpvars(0, tb_riscv_processor_q3);

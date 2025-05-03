@@ -35,8 +35,8 @@ module tb_riscv_processor;
         instr_mem[6]  = 32'h0020F3B3; // and  x7, x1, x2
         instr_mem[7]  = 32'hFFB18413; // addi x8, x3, -5
         instr_mem[8]  = 32'h00A22493; // slti x9, x4, 10
-        instr_mem[9]  = 32'h05536513; // ori  x10, x6, 0x55
-        instr_mem[10] = 32'h00F37593; // andi x11, x6, 0x0F
+        instr_mem[9]  = 32'h05536513; // ori  x10, x6, 85
+        instr_mem[10] = 32'h00F37593; // andi x11, x6, 15
         instr_mem[11] = 32'h00302423; // sw   x3, 8(x0)
         instr_mem[12] = 32'h00802603; // lw   x12, 8(x0)
         instr_mem[13] = 32'h00408463; // beq  x1, x4, +8 (L1 @ 0x3C)

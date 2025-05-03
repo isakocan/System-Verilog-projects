@@ -56,7 +56,6 @@ module tb_riscv_processor_q2;
     end
 
 endmodule
-
 // iverilog -g2012 -o sim_q2 tb_riscv_processor_q2.v
 // vvp sim_q2
 // gtkwave wave_q2.vcd &
